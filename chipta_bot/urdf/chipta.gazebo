@@ -3,9 +3,9 @@
 
 <xacro:property name="body_color" value="Gazebo/Silver" />
 <xacro:property name="wheel_color" value="Gazebo/Black" />
-<xacro:property name="imu_color" value="Gazebo/Silver" />
-<xacro:property name="gps_color" value="Gazebo/Silver" />
-<xacro:property name="lidar_color" value="Gazebo/Silver" />
+<xacro:property name="imu_color" value="Gazebo/Blue" />
+<xacro:property name="gps_color" value="Gazebo/Black" />
+<xacro:property name="lidar_color" value="Gazebo/Blue" />
 
 <gazebo reference="base_link">
   <material>${body_color}</material>
