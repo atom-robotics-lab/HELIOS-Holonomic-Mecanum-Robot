@@ -37,7 +37,7 @@
     <geometry>
       <mesh filename="file://$(find chipta_bot)/meshes/IMU_v1_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
-    <material name="silver"/>
+    <material name="light_blue"/>
   </visual>
   <collision>
     <origin xyz="-0.005 -0.0 -0.015" rpy="0 0 0"/>
@@ -58,7 +58,7 @@
     <geometry>
       <mesh filename="file://$(find chipta_bot)/meshes/GPS_v1_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
-    <material name="silver"/>
+    <material name="green"/>
   </visual>
   <collision>
     <origin xyz="0.03 -0.0 -0.018" rpy="0 0 0"/>
@@ -79,7 +79,7 @@
     <geometry>
       <mesh filename="file://$(find chipta_bot)/meshes/Lidar_v1_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
-    <material name="silver"/>
+    <material name="blue"/>
   </visual>
   <collision>
     <origin xyz="-0.1125 0.0015 -0.04" rpy="0 0 0"/>
@@ -88,6 +88,8 @@
     </geometry>
   </collision>
 </link>
+
+
 
 <link name="Wheel_front_left_1">  
   <inertial>
